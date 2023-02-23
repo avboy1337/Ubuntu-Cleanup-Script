@@ -23,6 +23,14 @@ sudo apt-get -s clean
 sudo apt-get clean all
 sudo apt-get autoclean
 
+
+sudo apt update -y -q
+sudo apt upgrade -y -q
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+sudo apt install gcc build-essential ibus-rime librime-data-pinyin-simp shutter -y -q
+# ibus-setup
+
+
 #Remove Old Log Files
 sudo rm -f /var/log/*gz
 
